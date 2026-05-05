@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4ef;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5c4033;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.banner {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5c4033;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
